@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: white; /* 1a represents 10% opacity in hexadecimal */
+}
+/* Add this to your CSS or styles */
+@keyframes moveLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-105%);
+    }
+  }
+  
+  .animate-moveLeft {
+    animation: moveLeft 20s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  
